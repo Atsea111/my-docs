@@ -29,7 +29,7 @@ const config = {
   },
 
   // 在此设置你的网站生产环境 URL
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://atsea.top',
   // 设置网站部署在其下的 /<baseUrl>/ 路径名
   // 对于 GitHub Pages 部署，通常为 '/<projectName>/'
   baseUrl: '/',
@@ -98,6 +98,18 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
+
+      // 顶部公告栏
+      announcementBar: {
+        id: 'gang ',
+        content:
+          //'⭐ 如果本站内容对你有帮助，可以前往 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Atsea111/my-docs">GitHub</a> 点个 Star 支持一下！',
+          '⭐ 本站刚上线，还在测试阶段有BUG见谅，也可以联系我！！！感谢',
+        backgroundColor: '#ffffff',
+        textColor: '#091e42',
+        isCloseable: true,    //公告栏关闭按钮/开关
+      },
+
       navbar: {
         title: '布丁不能吃',
         logo: {
@@ -149,6 +161,12 @@ const config = {
           // },
         ],
       },
+      //颜色模式
+      // colorMode: {
+      //   defaultMode: "dark",
+      //   disableSwitch: true,
+      // }
+
 
       //底部栏
       footer: {
@@ -160,6 +178,10 @@ const config = {
               {
                 label: '订阅推荐',
                 to: '/docs/Clash/订阅推荐',
+              },
+              {
+                label: 'Openlist',
+                to: 'https://list.atsea.top/',
               },
             ],
           },
