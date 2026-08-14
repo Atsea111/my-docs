@@ -1,0 +1,54 @@
+atsea:
+  name: 布丁
+  title: 摄影师、运营、自媒体人、极客
+  url: https://github.com/Atsea111
+  image_url: https://files.seeusercontent.com/2026/08/13/nA6d/_2026-08-13_182121_002.jpg
+  page:
+    permalink: '/atsea'
+  # socials:
+    # Docusaurus 内置平台：填写用户名、ID、邮箱或账号标识即可
+    # x: 你的X用户名
+    # twitter: 你的Twitter用户名
+    # github: Atsea111
+    # linkedin: 你的LinkedIn用户名
+    # stackoverflow: 你的StackOverflow用户ID
+    # bluesky: 你的Bluesky账号
+    # instagram: 你的Instagram用户名
+    # threads: 你的Threads用户名
+    # mastodon: 你的Mastodon账号
+    # twitch: 你的Twitch用户名
+    # youtube: 你的YouTube用户名
+    # email: example@example.com
+
+    # 自定义平台：必须填写完整网址
+    # bilibili: https://space.bilibili.com/34231196
+    # douyin: https://www.douyin.com/user/你的抖音用户标识
+
+yangshun:
+  name: Yangshun Tay
+  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
+  url: https://linkedin.com/in/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: yangshunz
+    linkedin: yangshun
+    github: yangshun
+    newsletter: https://www.greatfrontend.com
+
+slorber:
+  name: Sébastien Lorber
+  title: Docusaurus maintainer
+  url: https://sebastienlorber.com
+  image_url: https://github.com/slorber.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-sebastien-lorber-articles'
+  socials:
+    x: sebastienlorber
+    linkedin: sebastienlorber
+    github: slorber
+    newsletter: https://thisweekinreact.com
+
+
+

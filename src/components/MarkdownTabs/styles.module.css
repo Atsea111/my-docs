@@ -1,0 +1,15 @@
+.tabs {
+  margin: 1.25rem 0;
+}
+
+.label {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+.label i {
+  width: 1.15em;
+  font-size: 1.05em;
+  text-align: center;
+}

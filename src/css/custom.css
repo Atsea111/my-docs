@@ -1,0 +1,146 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@import url('https://npm.elemecdn.com/font6pro@6.3.0/css/fontawesome.min.css');
+@import url('https://npm.elemecdn.com/font6pro@6.3.0/css/all.min.css');
+@import url('./iconfont.css');
+@import url('./at-md.css');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+
+/* 浅色模式：全局页面背景 */
+html,
+body,
+#__docusaurus {
+  background: #ffffff;
+}
+
+/* 深色模式：全局页面背景 */
+[data-theme='dark'] html,
+[data-theme='dark'] body,
+[data-theme='dark'] #__docusaurus {
+  background: #0f1115;
+}
+
+/* ===== 导航栏：浅色模式 ===== */
+.navbar {
+  /* 背景颜色 */
+  background-color: #ffffff42;
+  /* 背景高斯模糊 */
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+
+  /* 底部阴影：X 偏移 / Y 偏移 / 模糊范围 / 扩散范围 / 颜色 */
+  box-shadow: 0 0px 05px 0 rgba(0, 0, 0, 0.06);
+
+  /* 边缘线：宽度暂设 0px，后续改为 1px 等即可启用 */
+  border: 0 solid rgba(0, 0, 0, 0.12);
+  border-radius: 0;
+}
+
+/* ===== 导航栏：深色模式 ===== */
+[data-theme='dark'] .navbar {
+  /* 背景颜色 */
+  background-color: #24273d10;
+  /* 背景高斯模糊 */
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+
+  /* 底部阴影：深色背景下稍强一些 */
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.35);
+
+  /* 边缘线：宽度暂设 0px */
+  border-color: rgba(255, 255, 255, 0.14);
+}
+
+/* ===== 移动端导航抽屉 =====
+ * navbar 的 backdrop-filter 会创建新的层叠上下文；抽屉打开时关闭该效果，
+ * 并明确抽屉与遮罩的前后层级，避免页面主体覆盖菜单内容。
+ */
+@media (max-width: 996px) {
+  .navbar.navbar-sidebar--show {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+
+  .navbar-sidebar__backdrop {
+    z-index: 1;
+  }
+
+  .navbar-sidebar {
+    z-index: 2;
+    background-color: var(--ifm-navbar-background-color);
+  }
+}
+
+/* ===== 页脚：浅色模式 ===== */
+.footer {
+  background-color: #ffffff;
+  color: #6d6c6c;
+}
+
+/* 页脚内的链接与标题 */
+.footer__title,
+.footer__link-item {
+  color: #292828;
+}
+
+.footer__link-item:hover {
+  color: #1677ff;
+}
+
+/* ===== 页脚：深色模式 ===== */
+[data-theme='dark'] .footer {
+  background-color: #0f1115;
+  color: #e5e7eb;
+}
+
+/* 页脚内的链接与标题 */
+[data-theme='dark'] .footer__title,
+[data-theme='dark'] .footer__link-item {
+  color: #e5e7eb;
+}
+
+[data-theme='dark'] .footer__link-item:hover {
+  color: #25c2a0;
+}
+
+/* ===== Docusaurus 原生 Tabs：图标与文字对齐 ===== */
+.tabs__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.tabs__item>i {
+  width: 1.15em;
+  font-size: 1.05em;
+  line-height: 1;
+  text-align: center;
+}

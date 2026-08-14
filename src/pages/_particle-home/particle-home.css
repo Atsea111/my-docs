@@ -1,0 +1,31 @@
+.particleHero {
+  display: grid;
+  min-height: var(--particle-hero-min-height);
+  place-items: center;
+  overflow: hidden;
+  background: var(--particle-hero-light-background);
+}
+
+.particleHero__content {
+  width: var(--particle-hero-content-width);
+  padding: var(--particle-hero-padding);
+}
+
+.particleField,
+.particleField__canvas {
+  display: block;
+  width: 100%;
+  height: var(--particle-canvas-height);
+}
+
+.particleField__canvas { touch-action: none; }
+
+[data-theme='dark'] .particleHero {
+  background: var(--particle-hero-dark-background);
+}
+
+@media (max-width: 600px) {
+  .particleHero__content { padding: var(--particle-hero-mobile-padding); }
+  .particleField,
+  .particleField__canvas { height: var(--particle-canvas-mobile-height); }
+}
