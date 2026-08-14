@@ -46,7 +46,11 @@ body,
 [data-theme='dark'] body,
 [data-theme='dark'] #__docusaurus {
   background: #0f1115;
+    --ifm-background-color: #0f1115;
+
+  --ifm-color-primary: #25c2a0;
 }
+
 
 /* ===== 导航栏：浅色模式 ===== */
 .navbar {

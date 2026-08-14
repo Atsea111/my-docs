@@ -12,6 +12,7 @@
 //apt install nodejs npm
 //source ~/.nvm/nvm.sh
 
+
 import { themes as prismThemes } from 'prism-react-renderer';
 import remarkMkdocsContainers from './src/remark/remark-mkdocs-containers.js';
 
@@ -36,10 +37,13 @@ const config = {
 
   // GitHub Pages 部署配置。
   // 若不使用 GitHub Pages，则无需填写这些项。
-  organizationName: 'facebook', // 通常为你的 GitHub 组织或用户名。
-  projectName: 'docusaurus', // 通常为你的仓库名称。
+  organizationName: 'atsea111', // 通常为你的 GitHub 组织或用户名。
+  projectName: 'my-docs', // 通常为你的仓库名称。
 
   onBrokenLinks: 'throw',
+
+  // Atsea 主题管理器：具体主题与组件在 themes/theme-atsea.config.js 中选择。
+  themes: ['./themes/theme-atsea/index.js'],
 
   // 即使不使用国际化，也可通过此字段设置
   // HTML 语言等有用元数据。例如，若网站为中文，
@@ -104,7 +108,7 @@ const config = {
         id: 'gang ',
         content:
           //'⭐ 如果本站内容对你有帮助，可以前往 <a target="_blank" rel="noopener noreferrer" href="https://github.com/Atsea111/my-docs">GitHub</a> 点个 Star 支持一下！',
-          '⭐ 本站刚上线，还在测试阶段有BUG见谅，也可以联系我！！！感谢',
+          '<b>🎉️ 本站新上线啦！🥳️测试阶段如有BUG见谅，也可以联系我、感谢！！</b>',
         backgroundColor: '#ffffff',
         textColor: '#091e42',
         isCloseable: true,    //公告栏关闭按钮/开关
@@ -153,10 +157,18 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/docs/Clash/订阅推荐', label: '订阅推荐', position: 'right' },
+
+          //导航栏右上角Github图标
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   html: '<i class="fa-brands fa-github fa-xl"></i>',
           //   //label: 'GitHub',
+          //   position: 'right',
+          // },
+
+          //多语言下拉栏 要配置i18n
+          // {
+          //   type: 'localeDropdown',
           //   position: 'right',
           // },
         ],
@@ -192,32 +204,27 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              //多语言下拉栏 要配置i18n
               // {
-              //   type: 'localeDropdown',
-              //   position: 'right',
+              //   label: 'GitHub',
+              //   href: 'https://github.com/facebook/docusaurus',
               // },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
             ],
           },
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              },
+              // {
+              //   label: 'Stack Overflow',
+              //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              // },
+              // {
+              //   label: 'Discord',
+              //   href: 'https://discordapp.com/invite/docusaurus',
+              // },
+              // {
+              //   label: 'X',
+              //   href: 'https://x.com/docusaurus',
+              // },
             ],
           },
         ],

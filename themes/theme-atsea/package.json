@@ -1,0 +1,15 @@
+{
+  "name": "docusaurus-theme-atsea",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./index.js",
+  "dependencies": {
+    "@docusaurus/utils": "^3.10.2"
+  },
+  "peerDependencies": {
+    "@docusaurus/core": "^3.10.2",
+    "@docusaurus/theme-classic": "^3.10.2",
+    "react": "^19.0.0"
+  }
+}

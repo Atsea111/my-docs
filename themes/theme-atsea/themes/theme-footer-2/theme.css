@@ -1,0 +1,178 @@
+/**
+ * theme-footer-2 当前只实现页脚。
+ * favicon、title、链接和 copyright 均继续读取 docusaurus.config.js。
+ */
+
+#__docusaurus .footer.footer--footer-2 {
+  padding: 1.5rem clamp(1.25rem, 4vw, 4rem);
+  border: 0;
+  border-radius: 0;
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+.footer2__container,
+.footer2__left,
+.footer2__right {
+  min-width: 0;
+}
+
+.footer2__container {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1440px;
+  gap: 2rem clamp(3rem, 8vw, 8rem);
+  margin: 0 auto;
+}
+
+.footer2__left,
+.footer2__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.35rem;
+}
+
+.footer2__right {
+  align-items: flex-end;
+}
+
+.footer2__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+
+.footer2__favicon {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.footer2__site-title {
+  color: var(--ifm-font-color-base);
+  font-size: 1.05rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.footer2__nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem 1.5rem;
+}
+
+.footer2__nav-link {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  transition: color var(--ifm-transition-fast) ease;
+}
+
+.footer2__nav-link {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.95rem;
+  font-weight: 600;
+  /* 字体加粗 */
+  line-height: 1.5;
+  transition: color var(--ifm-transition-fast) ease;
+}
+
+.footer2__socials {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.95rem;
+  /* margin-top: 0.5rem; 整个图标区域向下移动 */
+  transform: translateY(20px);
+}
+
+.footer2__social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ifm-color-emphasis-500);
+  line-height: 1;
+  text-decoration: none;
+  transition:
+    color var(--ifm-transition-fast) ease,
+    transform var(--ifm-transition-fast) ease;
+}
+
+.footer2__social-link:hover {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.footer2__social-icon {
+  display: block;
+  color: #566d76; /* 浅色模式 */
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+[data-theme='dark'] .footer2__social-icon {
+  color: #d9dee1; /* 深色模式 */
+}
+
+
+.footer2__copyright,
+.footer2__copyright .footer__copyright {
+  color: #566d76; /* 版权文字颜色 */
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-align: right;
+}
+
+[data-theme='dark'] #__docusaurus .footer.footer--footer-2 {
+  background: var(--ifm-background-color);
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .footer2__site-title {
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .footer2__nav-link,
+[data-theme='dark'] .footer2__social-link,
+[data-theme='dark'] .footer2__copyright,
+[data-theme='dark'] .footer2__copyright .footer__copyright {
+  color: var(--ifm-color-emphasis-600);
+  color: #ebebeb;
+}
+
+[data-theme='dark'] .footer2__nav-link:hover,
+[data-theme='dark'] .footer2__social-link:hover {
+  color: var(--ifm-color-primary);
+}
+
+@media (max-width: 700px) {
+  #__docusaurus .footer.footer--footer-2 {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .footer2__container {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.75rem;
+  }
+
+  .footer2__right {
+    align-items: flex-start;
+  }
+
+  .footer2__socials {
+    justify-content: flex-start;
+  }
+
+  .footer2__copyright,
+  .footer2__copyright .footer__copyright {
+    text-align: left;
+  }
+}
