@@ -22,7 +22,7 @@ import remarkMkdocsContainers from './src/remark/remark-mkdocs-containers.js';
 const config = {
   title: '布丁不能吃',
   tagline: 'Dinosaurs are cool',
-  favicon: 'https://raw.01l.top/Atsea111/PicGO-img/refs/heads/main/My-logo/atsea-bg.svg',
+  favicon: '/img/atsea-bg.svg',
 
   // 未来特性开关，参见 https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -118,7 +118,7 @@ const config = {
         title: '布丁不能吃',
         logo: {
           alt: 'My Site Logo',
-          src: 'https://raw.01l.top/Atsea111/PicGO-img/refs/heads/main/My-logo/atsea-bg.svg',
+          src: '/img/atsea-bg.svg',
         },
         items: [
           // {

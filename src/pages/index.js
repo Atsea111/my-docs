@@ -12,7 +12,7 @@ const PARTICLE_CONFIG = {
   // 显示内容：文字模式填写文字；图片模式填写本地路径、远程 URL 或 SVG 源码。
   // 本地 PNG：'/img/logo.png'    本地 SVG：'/img/logo.svg'
   // 远程图片：'https://example.com/logo.png'    SVG 源码：'<svg ...>...</svg>'
-  content: 'https://raw.01l.top/Atsea111/PicGO-img/refs/heads/main/My-logo/atsea-bg.svg',
+  content: '/img/atsea-bg.svg',
 
   // 单个粒子的半径（CSS 像素）；越大粒子越粗。
   particleSize: 1.6,
