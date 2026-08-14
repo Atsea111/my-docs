@@ -23,3 +23,4 @@ yarn-error.log*
 /core
 /core.*
 /*.core
+run.sh
