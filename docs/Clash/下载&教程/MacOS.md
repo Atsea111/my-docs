@@ -16,8 +16,8 @@ import Admonition from '@theme/Admonition';
 
     | 系统架构 | 下载地址 | Github下载 |
     | --- | --- | --- |
-    | Intel 芯片 | [![安装包 Intel芯片](https://img.shields.io/badge/安装包-Intel芯片/v2.5.2-0078D7)](https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@releases/download/v2.5.2/Clash.Verge_2.5.2_x64.dmg) | [![安装包 Intel芯片](https://img.shields.io/badge/github-最新-blue?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
-    | Apple M 芯片 | [![安装包 AppleM芯片](https://img.shields.io/badge/安装包-AppleM芯片/v2.5.2-8BB2E5)](https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@releases/download/v2.5.2/Clash.Verge_2.5.2_aarch64.dmg) | [![安装包 AppleM芯片](https://img.shields.io/badge/github-最新-8BB2E5?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+    | Intel 芯片 | [![安装包 Intel芯片](https://img.shields.io/badge/安装包-Intel芯片/v2.5.2-0078D7)](https://atsea.top/d/ClashVerge-MacOS-Intel) | [![安装包 Intel芯片](https://img.shields.io/badge/github-最新-blue?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+    | Apple M 芯片 | [![安装包 AppleM芯片](https://atsea.top/d/ClashVerge-MacOS-m) | [![安装包 AppleM芯片](https://img.shields.io/badge/github-最新-8BB2E5?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
     ---
     ## 安装应用
     ![mac_install](https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/guide/quickstart/mac_install.png)
