@@ -137,10 +137,10 @@ const config = {
                 label: '订阅推荐',
                 to: '/docs/Calsh/订阅推荐',
               },
-              {
-                label: '默认文档',
-                to: '/docs/Docusaurus/intro',
-              },
+              // {
+              //   label: '文档（制作中）',
+              //   to: '/docs/Docusaurus/intro',
+              // },
               // {
               //   label: 'Docker',
               //   to: '/docs/docker',
@@ -155,7 +155,7 @@ const config = {
               // },
             ],
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/docs/Clash/订阅推荐', label: '订阅推荐', position: 'right' },
 
           //导航栏右上角Github图标

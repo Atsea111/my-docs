@@ -5,6 +5,7 @@ hide_title: true
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Admonition from '@theme/Admonition';
+import DownloadBadge from '../../../download-badges.js';
 
 ### Windows 客户端下载&教程
 
@@ -14,10 +15,22 @@ import Admonition from '@theme/Admonition';
 
     <h2><a><img height="25px" src="https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@dev/src-tauri/icons/icon.png"/> Clash Verge Rev 下载</a></h2>
 
-    | 系统架构 | 下载地址 | Github下载 |
+    | 系统架构 | 代理加速下载 | Github官方下载 |
     | --- | --- | --- |
-    | x64 | <a href="/d/ClashVerge-x64-setup" target="_blank" rel="noopener" referrerPolicy="origin"><img src="https://img.shields.io/badge/安装包-x64/v2.5.2-0078D7" alt="安装包 x64" /></a> | [![安装包 x64](https://img.shields.io/badge/github-最新-blue?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
-    | arm64 | <a href="/d/ClashVerge-Arm64-setup" target="_blank" rel="noopener" referrerPolicy="origin"><img src="https://img.shields.io/badge/安装包-arm64/v2.5.2-8BB2E5" alt="安装包 arm64" /></a> | [![安装包 arm64](https://img.shields.io/badge/github-最新-8BB2E5?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+    | x64 | <DownloadBadge id="ClashVerge-x64-setup-r2" /> | <DownloadBadge id="ClashVerge-x64-setup-github" /> |
+    | arm64 | <DownloadBadge id="ClashVerge-Arm64-setup-r2" /> | <DownloadBadge id="ClashVerge-Arm64-setup-github" /> |
+
+    :::tip[如果Github直连太慢的话可以尝试`代理加速下载`]
+
+    代理加速下载：通过CF存储桶`代理加速`，`GitHub直连下载`国内无代理环境下载**不太稳定** .
+
+    :::
+    :::info
+
+    * 与Github仓库可能存在**延迟**更新，如果想体验**最新的版本**，可以访问·[Github官方仓库↗](https://github.com/clash-verge-rev/clash-verge-rev/releases)
+    * 如果上面下载列表中没有您**CUP架构的版本**，可以访问他们·[Github官方仓库↗](https://github.com/clash-verge-rev/clash-verge-rev/releases)
+
+    :::
     ---
     ## 复制订阅
     ##### 通过机场或者自建订阅导入节点和配置文件，以下以"良心云"订阅演示：
