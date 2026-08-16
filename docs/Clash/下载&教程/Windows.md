@@ -16,8 +16,8 @@ import Admonition from '@theme/Admonition';
 
     | 系统架构 | 下载地址 | Github下载 |
     | --- | --- | --- |
-    | x64 | [![安装包 x64](https://img.shields.io/badge/安装包-x64/v2.5.2-0078D7)](/d/ClashVerge-x64-setup) | [![安装包 x64](https://img.shields.io/badge/github-最新-blue?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
-    | arm64 | [![安装包 arm64](https://img.shields.io/badge/安装包-arm64/v2.5.2-8BB2E5)](/d/ClashVerge-Arm64-setup) | [![安装包 x64](https://img.shields.io/badge/github-最新-8BB2E5?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+    | x64 | <a href="https://atsea.top/d/ClashVerge-x64-setup" target="_blank" rel="noopener" referrerPolicy="origin"><img src="https://img.shields.io/badge/安装包-x64/v2.5.2-0078D7" alt="安装包 x64" /></a> | [![安装包 x64](https://img.shields.io/badge/github-最新-blue?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
+    | arm64 | <a href="https://atsea.top/d/ClashVerge-Arm64-setup" target="_blank" rel="noopener" referrerPolicy="origin"><img src="https://img.shields.io/badge/安装包-arm64/v2.5.2-8BB2E5" alt="安装包 arm64" /></a> | [![安装包 arm64](https://img.shields.io/badge/github-最新-8BB2E5?logo=github)](https://github.com/clash-verge-rev/clash-verge-rev/releases) |
     ---
     ## 复制订阅
     ##### 通过机场或者自建订阅导入节点和配置文件，以下以"良心云"订阅演示：
