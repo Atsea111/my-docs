@@ -49,6 +49,7 @@ const badges = {
     src: 'https://img.shields.io/badge/github-v2.5.2-8BB2E5?logo=github',
     alt: '安装包 x64',
   },
+  //------------Clash Meta for Android--------------
   //Clash Meta for Android ARMv8
   'CMFA-Arm64-v8a-r2': {
     href: '/d/cmfa-arm64-v8a',
