@@ -1,4 +1,5 @@
 import {Children, isValidElement} from 'react';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import styles from './styles.module.css';
@@ -26,12 +27,26 @@ function resolveIconClassName(icon) {
   return icon;
 }
 
+function isSvgIcon(icon) {
+  return typeof icon === 'string' && /\.svg(?:[?#].*)?$/i.test(icon);
+}
+
+function SvgIcon({src}) {
+  const iconUrl = useBaseUrl(src);
+
+  return <img src={iconUrl} alt="" aria-hidden="true" />;
+}
+
 function TabLabel({icon, label}) {
   const iconClassName = resolveIconClassName(icon);
 
   return (
     <span className={styles.label}>
-      {iconClassName && <i className={iconClassName} aria-hidden="true" />}
+      {isSvgIcon(icon) ? (
+        <SvgIcon src={icon} />
+      ) : (
+        iconClassName && <i className={iconClassName} aria-hidden="true" />
+      )}
       <span>{label}</span>
     </span>
   );

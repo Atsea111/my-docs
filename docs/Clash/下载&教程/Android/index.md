@@ -14,9 +14,9 @@ import DownloadBadge from '../../../../download-badges.js';
 
 ---
  ### 客户端下载
-=== "Clash Meta for Android"
+=== ":/img/CMFA-logo.svg: Clash Meta for Android"
 
-    <h2><a><img height="25px" src="https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@dev/src-tauri/icons/icon.png"/> Clash Meta for Android 下载</a></h2>
+    <h2><a><img height="25px" src="/img/CMFA-logo.svg"/> Clash Meta for Android 下载</a></h2>
 
     | 系统架构 | 下载地址 | Github下载 |
     | --- | --- | --- |

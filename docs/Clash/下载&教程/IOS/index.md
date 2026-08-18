@@ -14,9 +14,9 @@ import DownloadBadge from '../../../../download-badges.js';
 
 ---
  ### 客户端下载
-=== "Showadrocket"
+=== ":/img/shadowrocket-icon-round.svg: Showadrocket"
 
-    <h2><a><img height="25px" src="https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@dev/src-tauri/icons/icon.png"/> Showadrocket 下载</a></h2>
+    <h2><a><img height="25px" src="/img/shadowrocket-icon-round.svg"/> Showadrocket 下载</a></h2>
 
     | 系统架构 | 下载地址 | 
     | --- | --- |
@@ -142,7 +142,6 @@ import DownloadBadge from '../../../../download-badges.js';
     :::info[参考资料]
 
     - [Shadowrocket App Store 页面](https://apps.apple.com/us/app/shadowrocket/id932747118)
-    - [Clash Guide：Shadowrocket iOS 教程](https://clash.guide/showadrecket.html)
 
     :::
 

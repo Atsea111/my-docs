@@ -8,8 +8,16 @@
   align-items: center;
 }
 
-.label i {
+.label i,
+.label img {
   width: 1.15em;
   font-size: 1.05em;
   text-align: center;
+}
+
+.label img {
+  display: block;
+  height: 1.15em;
+  flex: 0 0 auto;
+  object-fit: contain;
 }

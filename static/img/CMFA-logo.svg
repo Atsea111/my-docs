@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Transparent background -->
+  <g fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Cat / M mark -->
+    <path
+      d="M118 112
+         L162 108
+         L235 193
+         Q245 202 256 202
+         Q267 202 277 193
+         L350 108
+         L394 112
+         L394 318
+         Q366 327 338 318
+         L338 201
+         L300 243
+         Q282 263 256 263
+         Q230 263 212 243
+         L174 201
+         L174 318
+         Q146 327 118 318
+         Z"
+      fill="#3D7DBA"/>
+    <!-- Nose -->
+    <path d="M246 337 Q256 332 266 337 L259 350 Q256 355 253 350 Z" fill="#3D7DBA"/>
+
+    <!-- Left whiskers -->
+    <path d="M115 350 L184 350" stroke="#F59D00" stroke-width="12"/>
+    <path d="M116 393 L181 371" stroke="#F59D00" stroke-width="12"/>
+
+    <!-- Right whiskers -->
+    <path d="M328 350 L397 350" stroke="#F59D00" stroke-width="12"/>
+    <path d="M331 371 L396 393" stroke="#F59D00" stroke-width="12"/>
+  </g>
+</svg>

@@ -11,7 +11,7 @@ import DownloadBadge from '../../../download-badges.js';
 
 ---
  ### 客户端下载
-=== "Clash Verge Rev"
+=== ":/img/Clash-Verge-Rev-logo.svg: Clash Verge Rev"
 
     <h2><a><img height="25px" src="https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@dev/src-tauri/icons/icon.png"/> Clash Verge Rev 下载</a></h2>
 
