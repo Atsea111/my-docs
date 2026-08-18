@@ -15,10 +15,10 @@ import DownloadBadge from '../../../download-badges.js';
 
     <h2><a><img height="25px" src="https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@dev/src-tauri/icons/icon.png"/> Clash Verge Rev 下载</a></h2>
 
-    | 系统架构 | 代理加速下载 | Github官方下载 |
-    | --- | --- | --- |
-    | Apple M 芯片 | <DownloadBadge id="ClashVerge-MacOS-m-r2" /> | <DownloadBadge id="ClashVerge-MacOS-m-github" /> |
-    | Intel 芯片 | <DownloadBadge id="ClashVerge-MacOS-Intel-r2" /> | <DownloadBadge id="ClashVerge-MacOS-Intel-github" /> |
+    | 系统架构 | 代理加速下载1 | 代理加速下载2 | Github官方下载 |
+    | --- | --- | --- | --- |
+    | Apple M 芯片 | <DownloadBadge id="ClashVerge-MacOS-m-r2" /> | <DownloadBadge id="ClashVerge-MacOS-m-quark" /> | <DownloadBadge id="ClashVerge-MacOS-m-github" /> |
+    | Intel 芯片 | <DownloadBadge id="ClashVerge-MacOS-Intel-r2" /> | <DownloadBadge id="ClashVerge-MacOS-Intel-quark" /> | <DownloadBadge id="ClashVerge-MacOS-Intel-github" /> |
 
     :::tip[如果Github直连太慢的话可以尝试`代理加速下载`]
 

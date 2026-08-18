@@ -18,10 +18,10 @@ import DownloadBadge from '../../../../download-badges.js';
 
     <h2><a><img height="25px" src="/img/CMFA-logo.svg"/> Clash Meta for Android 下载</a></h2>
 
-    | 系统架构 | 下载地址 | Github下载 |
-    | --- | --- | --- |
-    | ARMv8大多机型 | <DownloadBadge id="CMFA-Arm64-v8a-r2" /> | <DownloadBadge id="CMFA-Arm64-v8a-github" /> |
-    | ARMv7老旧机型 | <DownloadBadge id="CMFA-Arm64-v7a-r2" /> | <DownloadBadge id="CMFA-Arm64-v7a-github" /> |
+    | 系统架构 | 代理加速下载1 | 代理加速下载2 | Github下载 |
+    | --- | --- | --- | --- |
+    | ARMv8大多机型 | <DownloadBadge id="CMFA-Arm64-v8a-r2" /> | <DownloadBadge id="CMFA-Arm64-v8a-quark" /> | <DownloadBadge id="CMFA-Arm64-v8a-github" /> |
+    | ARMv7老旧机型 | <DownloadBadge id="CMFA-Arm64-v7a-r2" /> | <DownloadBadge id="CMFA-Arm64-v7a-quark" /> | <DownloadBadge id="CMFA-Arm64-v7a-github" /> |
 
     :::tip[如果Github直连太慢的话可以尝试`代理加速下载`]
 

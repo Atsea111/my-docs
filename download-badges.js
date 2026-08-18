@@ -13,6 +13,12 @@ const badges = {
     src: 'https://img.shields.io/badge/github-v2.5.2-8BB2E5?logo=github',
     alt: '安装包 Intel芯片',
   },
+    'ClashVerge-MacOS-Intel-quark': {
+    href: '/q/ClashVerge-MacOS-Intel',
+    src: 'https://img.shields.io/badge/Dmg-v2.5.2-8BB2E5?logo=apple&logoColor=white',
+    alt: '安装包 Intel芯片',
+  },
+
   //Clash.Verge M 芯片
   'ClashVerge-MacOS-m-r2': {
     href: '/d/ClashVerge-MacOS-m',
@@ -25,6 +31,13 @@ const badges = {
     src: 'https://img.shields.io/badge/github-v2.5.2-0078D7?logo=github',
     alt: 'Apple M 芯片',
   },
+  'ClashVerge-MacOS-m-quark': {
+    href: '/q/ClashVerge-MacOS-m',
+    src: 'https://img.shields.io/badge/Dmg-v2.5.2-0078D7?logo=apple&logoColor=white',
+    alt: 'Apple M 芯片',
+    newTab: true,
+  },
+
   //Clash.Verge windows-x64安装包
   'ClashVerge-x64-setup-r2': {
     href: '/d/ClashVerge-x64-setup',
@@ -37,6 +50,13 @@ const badges = {
     src: 'https://img.shields.io/badge/github-v2.5.2-0078D7?logo=github',
     alt: '安装包 x64',
   },
+  'ClashVerge-x64-setup-quark': {
+    href: '/q/ClashVerge-x64-setup',
+    src: 'https://img.shields.io/badge/安装包-v2.5.2-0078D7',
+    alt: '安装包 x64',
+    newTab: true,
+  },
+
   //Clash.Verge windows-arm架构安装包
   'ClashVerge-Arm64-setup-r2': {
     href: '/d/ClashVerge-Arm64-setup',
@@ -49,6 +69,13 @@ const badges = {
     src: 'https://img.shields.io/badge/github-v2.5.2-8BB2E5?logo=github',
     alt: '安装包 x64',
   },
+    'ClashVerge-Arm64-setup-quark': {
+    href: '/q/ClashVerge-Arm64-setup',
+    src: 'https://img.shields.io/badge/安装包-v2.5.2-8BB2E5',
+    alt: '安装包 arm64',
+    newTab: true,
+  },
+
   //------------Clash Meta for Android--------------
   //Clash Meta for Android ARMv8
   'CMFA-Arm64-v8a-r2': {
@@ -62,6 +89,12 @@ const badges = {
     src: 'https://img.shields.io/badge/github-v2.11.33-3DDC84?logo=github',
     alt: '安装包 x64',
   },
+  'CMFA-Arm64-v8a-quark': {
+    href: '/q/cmfa-arm64-v8a',
+    src: 'https://img.shields.io/badge/APK-v2.11.33-3DDC84?logo=android&logoColor=3DDC84',
+    alt: '安装包 arm64',
+    newTab: true,
+  },
 
   //Clash Meta for Android ARMv7
   'CMFA-Arm64-v7a-r2': {
@@ -74,6 +107,12 @@ const badges = {
     href: 'https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.33/cmfa-2.11.33-meta-armeabi-v7a-release.apk',
     src: 'https://img.shields.io/badge/github-v2.11.33-ACFAD1?logo=github',
     alt: '安装包 x64',
+  },
+  'CMFA-Arm64-v7a-quark': {
+    href: '/q/cmfa-arm64-v7a',
+    src: 'https://img.shields.io/badge/APK-v2.11.33-ACFAD1?logo=android&logoColor=3DDC84',
+    alt: '安装包 arm64',
+    newTab: true,
   },
 
 };

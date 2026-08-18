@@ -15,10 +15,10 @@ import DownloadBadge from '../../../download-badges.js';
 
     <h2><a><img height="25px" src="https://cdn.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev@dev/src-tauri/icons/icon.png"/> Clash Verge Rev 下载</a></h2>
 
-    | 系统架构 | 代理加速下载 | Github官方下载 |
-    | --- | --- | --- |
-    | x64 | <DownloadBadge id="ClashVerge-x64-setup-r2" /> | <DownloadBadge id="ClashVerge-x64-setup-github" /> |
-    | arm64 | <DownloadBadge id="ClashVerge-Arm64-setup-r2" /> | <DownloadBadge id="ClashVerge-Arm64-setup-github" /> |
+    | 系统架构 | 代理加速下载1 | 代理加速下载2 | Github官方下载 |
+    | --- | --- | --- | --- |
+    | x64 | <DownloadBadge id="ClashVerge-x64-setup-r2" /> | <DownloadBadge id="ClashVerge-x64-setup-quark" /> | <DownloadBadge id="ClashVerge-x64-setup-github" /> |
+    | arm64 | <DownloadBadge id="ClashVerge-Arm64-setup-r2" /> | <DownloadBadge id="ClashVerge-Arm64-setup-quark" /> | <DownloadBadge id="ClashVerge-Arm64-setup-github" /> |
 
     :::tip[如果Github直连太慢的话可以尝试`代理加速下载`]
 
