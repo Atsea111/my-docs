@@ -80,13 +80,13 @@ const badges = {
   //Clash Meta for Android ARMv8
   'CMFA-Arm64-v8a-r2': {
     href: '/d/cmfa-arm64-v8a',
-    src: 'https://img.shields.io/badge/APK-v2.11.33-3DDC84?logo=android&logoColor=3DDC84',
+    src: 'https://img.shields.io/badge/APK-v2.11.34-3DDC84?logo=android&logoColor=3DDC84',
     alt: '安装包 arm64',
     newTab: true,
   },
   'CMFA-Arm64-v8a-github': {
-    href: 'https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.33/cmfa-2.11.33-meta-arm64-v8a-release.apk',
-    src: 'https://img.shields.io/badge/github-v2.11.33-3DDC84?logo=github',
+    href: 'https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.34/cmfa-2.11.34-meta-arm64-v8a-release.apk',
+    src: 'https://img.shields.io/badge/github-v2.11.34-3DDC84?logo=github',
     alt: '安装包 x64',
   },
   'CMFA-Arm64-v8a-quark': {
@@ -99,12 +99,12 @@ const badges = {
   //Clash Meta for Android ARMv7
   'CMFA-Arm64-v7a-r2': {
     href: '/d/cmfa-arm64-v7a',
-    src: 'https://img.shields.io/badge/APK-v2.11.33-ACFAD1?logo=android&logoColor=3DDC84',
+    src: 'https://img.shields.io/badge/APK-v2.11.34-ACFAD1?logo=android&logoColor=3DDC84',
     alt: '安装包 arm64',
     newTab: true,
   },
   'CMFA-Arm64-v7a-github': {
-    href: 'https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.33/cmfa-2.11.33-meta-armeabi-v7a-release.apk',
+    href: 'https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.34/cmfa-2.11.34-meta-armeabi-v7a-release.apk',
     src: 'https://img.shields.io/badge/github-v2.11.33-ACFAD1?logo=github',
     alt: '安装包 x64',
   },
