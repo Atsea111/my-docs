@@ -105,7 +105,7 @@ const badges = {
   },
   'CMFA-Arm64-v7a-github': {
     href: 'https://github.com/MetaCubeX/ClashMetaForAndroid/releases/download/v2.11.34/cmfa-2.11.34-meta-armeabi-v7a-release.apk',
-    src: 'https://img.shields.io/badge/github-v2.11.33-ACFAD1?logo=github',
+    src: 'https://img.shields.io/badge/github-v2.11.34-ACFAD1?logo=github',
     alt: '安装包 x64',
   },
   'CMFA-Arm64-v7a-quark': {
