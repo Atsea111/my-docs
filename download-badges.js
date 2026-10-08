@@ -4,16 +4,16 @@ const badges = {
   //Clash.Verge 英特尔 芯片
   'ClashVerge-MacOS-Intel-r2': {
     href: '/d/ClashVerge-MacOS-Intel',
-    src: 'https://img.shields.io/badge/Dmg-v2.5.6-8BB2E5?logo=apple&logoColor=white',
+    src: 'https://img.shields.io/badge/Dmg-v2.5.7-8BB2E5?logo=apple&logoColor=white',
     alt: '安装包 Intel芯片',
     newTab: true,
   },
   'ClashVerge-MacOS-Intel-github': {
-    href: 'https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.6/Clash.Verge_2.5.6_x64.dmg',
-    src: 'https://img.shields.io/badge/github-v2.5.6-8BB2E5?logo=github',
+    href: 'https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.7/Clash.Verge_2.5.7_x64.dmg',
+    src: 'https://img.shields.io/badge/github-v2.5.7-8BB2E5?logo=github',
     alt: '安装包 Intel芯片',
   },
-    'ClashVerge-MacOS-Intel-quark': {
+  'ClashVerge-MacOS-Intel-quark': {
     href: '/q/ClashVerge-MacOS-Intel',
     src: 'https://img.shields.io/badge/Dmg-v2.5.2-8BB2E5?logo=apple&logoColor=white',
     alt: '安装包 Intel芯片',
@@ -22,13 +22,13 @@ const badges = {
   //Clash.Verge M 芯片
   'ClashVerge-MacOS-m-r2': {
     href: '/d/ClashVerge-MacOS-m',
-    src: 'https://img.shields.io/badge/Dmg-v2.5.6-0078D7?logo=apple&logoColor=white',
+    src: 'https://img.shields.io/badge/Dmg-v2.5.7-0078D7?logo=apple&logoColor=white',
     alt: 'Apple M 芯片',
     newTab: true,
   },
   'ClashVerge-MacOS-m-github': {
-    href: 'https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.6/Clash.Verge_2.5.6_aarch64.dmg',
-    src: 'https://img.shields.io/badge/github-v2.5.6-0078D7?logo=github',
+    href: 'https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.7/Clash.Verge_2.5.7_aarch64.dmg',
+    src: 'https://img.shields.io/badge/github-v2.5.7-0078D7?logo=github',
     alt: 'Apple M 芯片',
   },
   'ClashVerge-MacOS-m-quark': {
@@ -41,13 +41,13 @@ const badges = {
   //Clash.Verge windows-x64安装包
   'ClashVerge-x64-setup-r2': {
     href: '/d/ClashVerge-x64-setup',
-    src: 'https://img.shields.io/badge/安装包-v2.5.6-0078D7',
+    src: 'https://img.shields.io/badge/安装包-v2.5.7-0078D7',
     alt: '安装包 x64',
     newTab: true,
   },
   'ClashVerge-x64-setup-github': {
-    href: 'https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.6/Clash.Verge_2.5.6_x64-setup.exe',
-    src: 'https://img.shields.io/badge/github-v2.5.6-0078D7?logo=github',
+    href: 'https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.7/Clash.Verge_2.5.7_x64-setup.exe',
+    src: 'https://img.shields.io/badge/github-v2.5.7-0078D7?logo=github',
     alt: '安装包 x64',
   },
   'ClashVerge-x64-setup-quark': {
@@ -60,16 +60,16 @@ const badges = {
   //Clash.Verge windows-arm架构安装包
   'ClashVerge-Arm64-setup-r2': {
     href: '/d/ClashVerge-Arm64-setup',
-    src: 'https://img.shields.io/badge/安装包-v2.5.6-8BB2E5',
+    src: 'https://img.shields.io/badge/安装包-v2.5.7-8BB2E5',
     alt: '安装包 arm64',
     newTab: true,
   },
   'ClashVerge-Arm64-setup-github': {
-    href: 'https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.6/Clash.Verge_2.5.6_arm64-setup.exe',
-    src: 'https://img.shields.io/badge/github-v2.5.6-8BB2E5?logo=github',
+    href: 'https://github.com/clash-verge-rev/clash-verge-rev/releases/download/v2.5.7/Clash.Verge_2.5.7_arm64-setup.exe',
+    src: 'https://img.shields.io/badge/github-v2.5.7-8BB2E5?logo=github',
     alt: '安装包 x64',
   },
-    'ClashVerge-Arm64-setup-quark': {
+  'ClashVerge-Arm64-setup-quark': {
     href: '/q/ClashVerge-Arm64-setup',
     src: 'https://img.shields.io/badge/安装包-v2.5.2-8BB2E5',
     alt: '安装包 arm64',
